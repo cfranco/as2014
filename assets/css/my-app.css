@@ -1,0 +1,25 @@
+.right{float: right;}
+.left{float: left;}
+
+.head-top{
+	background: #F5F5F5;
+	color: #333;
+	padding: 5px 0px;
+	text-align: right;
+}
+
+.bg-azul{background: #003367;}
+.text-white{color: #fff;}
+
+h1, h2, h3, h4, h5, h6{color: #003366;}
+
+
+@media (max-width: 768px){
+	#navbar ul.right{
+		float: left;
+	}
+	button.navbar-toggle{
+		display: block;
+		margin-top: 20px;
+	}
+}
