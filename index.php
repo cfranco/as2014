@@ -14,6 +14,8 @@
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/my-app.css" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Roboto:100italic,100,300italic,300,400italic,400,500italic,500,700italic,700,900italic,900" rel="stylesheet" type="text/css">
+
 
 
     <!-- Include FontAwesome CSS if you want to use feedback icons provided by FontAwesome -->
@@ -366,17 +368,17 @@
 
         <!-- FOOTER -->
         <footer>
-            <div class="row">
-                <div class="container">
-                    <p class="left">Atención a clientes</p>
-                    <p class="left">En México: 01 800 838 7990   ·   +52 (81) 1453 0241   ·   +52 (81) 1366 0620   ·   ventas@americanseal.com.mx</p>
+            <div class="row bg-atencion text-white">
+                <div class="container pv20">
+                    <span class="col-lg-3 atencion">Atención a clientes:</span>
+                    <p class="col-lg-9 left">En México: 01 800 838 7990   ·   +52 (81) 1453 0241   ·   +52 (81) 1366 0620   ·   ventas@americanseal.com.mx</p>
                 </div>
             </div>
 
             <div class="row">
-                <div class="container">
-                    <div class="col-lg-7">
-                        <ul class="col-lg-3">
+                <div class="container pv35">
+                    <div class="col-lg-7 no-gutters">
+                        <ul class="col-lg-3 no-gutters">
                             <li class="title-foot">Productos</li>
                             <li>Content</li>
                             <li>Content</li>
@@ -385,7 +387,7 @@
                             <li>Content</li>
                         </ul>
 
-                        <ul class="col-lg-3">
+                        <ul class="col-lg-3 no-gutters">
                             <li class="title-foot">Servicios</li>
                             <li>Content</li>
                             <li>Content</li>
@@ -394,7 +396,7 @@
                             <li>Content</li>
                         </ul>
                         
-                        <ul class="col-lg-3">
+                        <ul class="col-lg-3 no-gutters">
                             <li class="title-foot">Recursos</li>
                             <li>Content</li>
                             <li>Content</li>
@@ -403,7 +405,7 @@
                             <li>Content</li>
                         </ul>
 
-                        <ul class="col-lg-3">
+                        <ul class="col-lg-3 no-gutters">
                             <li class="title-foot">Nuestra Empresa</li>
                             <li>Content</li>
                             <li>Content</li>
@@ -414,19 +416,16 @@
                     </div>
 
                     <div class="col-lg-5">
-                        <img src="">
-                        <p>“Tools like Help Scout enable us to execute the kind of one-on-one customer service we’re looking for. It’s the kind of product that is taking our business to a different level.”</p>
+                        <img class="left col-lg-2" src="assets/img/testimonial.jpg">
+                        <p class="right col-lg-10">“Tools like Help Scout enable us to execute the kind of one-on-one customer service we’re looking for. It’s the kind of product that is taking our business to a different level.”</p>
                     </div>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="container">
+            <div class="row bg-beige">
+                <div class="container pv20">
                     <div class="col-lg-10 col-lg-offset-1 text-center">
-                        <img class="col-lg-3" src="">
-                        <img class="col-lg-3" src="">
-                        <img class="col-lg-3" src="">
-                        <img class="col-lg-3" src="">
+                        <img src="assets/img/logos-fotter.jpg">
                     </div>
                 </div>
             </div>

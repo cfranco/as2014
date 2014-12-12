@@ -1,18 +1,71 @@
 .right{float: right;}
 .left{float: left;}
 
+.bg-azul{background: #003367;}
+.bg-beige{background:#F5F5F5;}
+
+.text-blue{color:#003367;}
+.text-white{color: #fff;}
+
+.pad05{padding: 5px;}
+.pad10{padding: 10px;}
+.pad15{padding: 15px;}
+.pad20{padding: 20px;}
+
+.pv05{padding:5px 0px;}
+.pv10{padding:10px 0px;}
+.pv15{padding:15px 0px;}
+.pv20{padding:20px 0px;}
+.pv25{padding:25px 0px;}
+.pv30{padding:30px 0px;}
+.pv35{padding:35px 0px;}
+
+/* no-gutters Class Rules */
+.row .no-gutters {
+   margin-right: 0;
+   margin-left: 0;
+}
+.row .no-gutters [class^="col-"],
+.row .no-gutters [class*=" col-"]{
+   padding-right: 0;
+   padding-left: 0;
+}
+
+
 .head-top{
 	background: #F5F5F5;
 	color: #333;
+	margin:0; 
 	padding: 5px 0px;
 	text-align: right;
 }
 
-.bg-azul{background: #003367;}
-.text-white{color: #fff;}
 
 h1, h2, h3, h4, h5, h6{color: #003366;}
 
+.bg-atencion{
+	background:#003367 url("../img/bg-atencion.png") center top no-repeat;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 1;
+}
+
+footer ul{
+	margin: 0px;
+	padding: 0px;
+}
+footer ul li{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+
+}
+footer ul li.title-foot{
+	color:#003367;
+	font-family: "roboto";
+	font-weight: bold;
+	font-size: 19px;
+}
 
 @media (max-width: 768px){
 	#navbar ul.right{
