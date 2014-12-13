@@ -31,6 +31,9 @@
    padding-left: 0;
 }
 
+.border-gris{border: 1px solid #eee;}
+.border-bottom{border-bottom: 1px solid #eee;}
+.border-top{border-top: 1px solid #eee;}
 
 .head-top{
 	background: #F5F5F5;
@@ -66,6 +69,14 @@ footer ul li.title-foot{
 	font-weight: bold;
 	font-size: 19px;
 }
+
+
+.paginador{margin: 20px 0px; padding: 20px 0px;}
+.products-image img{
+	border:1px solid #eee; 
+}
+
+
 
 @media (max-width: 768px){
 	#navbar ul.right{
