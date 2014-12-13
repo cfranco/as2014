@@ -26,7 +26,7 @@
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav right">
-                            <li class="active"><a href="#">Productos</a></li>
+                            <li class="active"><a href="productos.php">Productos</a></li>
                             <li><a href="#about">Servicios</a></li>
                             <li><a href="#contact">Sucursales</a></li>
                             <li><a href="#">Nosotros</a></li>
