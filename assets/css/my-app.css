@@ -4,9 +4,11 @@
 .bg-azul{background: #003367;}
 .bg-beige{background:#F5F5F5;}
 
+
 .text-blue{color:#003367;}
 .text-white{color: #fff;}
 
+.pad00{padding: 0px;}
 .pad05{padding: 5px;}
 .pad10{padding: 10px;}
 .pad15{padding: 15px;}
@@ -19,6 +21,20 @@
 .pv25{padding:25px 0px;}
 .pv30{padding:30px 0px;}
 .pv35{padding:35px 0px;}
+.pv40{padding:40px 0px;}
+.pv45{padding:45px 0px;}
+.pv50{padding:50px 0px;}
+
+.mt05{margin-top: 05px;}
+.mt10{margin-top: 10px;}
+.mt15{margin-top: 15px;}
+.mt20{margin-top: 20px;}
+.mt25{margin-top: 25px;}
+.mt30{margin-top: 30px;}
+.mt35{margin-top: 35px;}
+.mt40{margin-top: 45px;}
+.mt45{margin-top: 45px;}
+.mt50{margin-top: 50px;}
 
 /* no-gutters Class Rules */
 .row .no-gutters {
@@ -44,7 +60,22 @@
 }
 
 
-h1, h2, h3, h4, h5, h6{color: #003366;}
+h1, h2, h3, h4, h5, h6{
+	color: #003366;
+	font-family: "roboto", Awesome, helvetica;
+}
+
+h2{
+	font-family: roboto;
+	font-size: 24px;
+}
+
+p{
+	color: #666;
+	font-family: roboto;
+	font-weight: 300;
+	font-size: 18px;
+}
 
 .bg-atencion{
 	background:#003367 url("../img/bg-atencion.png") center top no-repeat;
@@ -52,6 +83,72 @@ h1, h2, h3, h4, h5, h6{color: #003366;}
 	font-size: 18px;
 	line-height: 1;
 }
+
+#navbar .navbar-nav > li > a{
+	color: #003366;
+	font-size: 14px;
+	font-family: "Awesome", helvetica;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+#top-productos .navbar-nav{
+	float: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+#top-productos .navbar-nav > li{
+	border-right: 1px solid #ddd;
+	text-align: center;
+	width: 20%;
+}
+#top-productos .navbar-nav > li.first{
+	border-left: 1px solid #ddd;
+}
+
+#top-productos .navbar-nav > li > a{
+	color: #043567;
+	font-family: Awesome, helvetica;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+img.shadow{
+	box-shadow: 0px 4px 15px #ddd;
+}
+#brand-product{text-align: center;}
+#brand-product ul{
+	color: #666;
+	font-size: 14px;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#form-llama{}
+#form-llama h5{
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+#form-llama p{
+	color: #fff;
+	font-size: 15px;
+}
+#form-llama span.contact-phone{
+	color:#5cb85c;
+	display: block;
+	font-size: 24px;
+	letter-spacing: 1px;
+	margin-bottom: 8px;
+}
+#formContrata label{padding: 10px 0px;}
+
+
 
 footer ul{
 	margin: 0px;

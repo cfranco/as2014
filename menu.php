@@ -3,8 +3,7 @@
     <div class="navbar-wrapper ">
         <div class="row head-top">
             <div class="container">
-                <span>ventas@americanseal.com.mx</span>
-                <span>01 800 838 7990</span>
+                <span>01 800 838 7990 - ventas@americanseal.com.mx</span>
             </div>
         </div>
 
@@ -25,7 +24,7 @@
                         </a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav right">
+                        <ul class="nav navbar-nav right mt10">
                             <li class="active"><a href="productos.php">Productos</a></li>
                             <li><a href="#about">Servicios</a></li>
                             <li><a href="#contact">Sucursales</a></li>
@@ -41,11 +40,11 @@
 <!-- Termina Menú prinicipal
 ================================================== -->
 
-    <div class="row bg-beige">
+    <div class="row bg-beige border-top">
         <div class="container">     
             <div id="top-productos" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="">SEPCO</a></li>
+                    <li class="first"><a href="">SEPCO</a></li>
                     <li><a href="">INPROSEAL</a></li>
                     <li><a href="">ORBI INEGNIERÍA</a></li>
                     <li><a href="">AMPCO PUMPS</a></li>

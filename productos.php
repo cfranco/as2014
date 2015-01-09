@@ -11,7 +11,7 @@
         <!-- Inicia Sidebar de Productos -->
         <div class="col-md-3">
         	<h4>Productos</h4>
-        	<span>por Categoría</span>
+        	<span>Por Categoría</span>
         	<ul>
 				<li><a href="">Anillo Aterrizador de Corriente</a></li>
 				<li><a href="">Anillos para Turbinas</a></li>
@@ -39,8 +39,8 @@
         		<img src="images/brand-inproseal.jpg">
         	</div>
         	<div class="col-md-9">
-        		<h2>Lander Ring Power</h2>
-        		<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        		<h2>Inpro/Seal</h2>
+        		<p>Is the world leader in the design and manufacture of permanent bearing protection and complete shaft seals for rotating equipment.</p>
         	</div>
         </div>
         <!-- Termina caja de marcas -->
@@ -63,17 +63,101 @@
 
 			<div class="col-md-12 text-center products-image">
         		<div class="col-md-3">
-        			<a data-toggle="lightbox" href="#demoLightbox">
-        				<img src="images/producto-dumy.jpg">
-        				<p>Aterrizador De Corriente</p>
-        			</a>
-        		</div>
-        		<div id="demoLightbox" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
-					<div class='lightbox-content'>
-						<img src="image.png">
-						<div class="lightbox-caption"><p>Your caption here</p></div>
-					</div>
-				</div>
+                    <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
+                        <img src="images/producto-dumy.jpg">
+                        <p>Aterrizador De Corriente</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
+                        <img src="images/producto-dumy.jpg">
+                        <p>Aterrizador De Corriente</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
+                        <img src="images/producto-dumy.jpg">
+                        <p>Aterrizador De Corriente</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
+                        <img src="images/producto-dumy.jpg">
+                        <p>Aterrizador De Corriente</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
+                        <img src="images/producto-dumy.jpg">
+                        <p>Aterrizador De Corriente</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
+                        <img src="images/producto-dumy.jpg">
+                        <p>Aterrizador De Corriente</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
+                        <img src="images/producto-dumy.jpg">
+                        <p>Aterrizador De Corriente</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
+                        <img src="images/producto-dumy.jpg">
+                        <p>Aterrizador De Corriente</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
+                        <img src="images/producto-dumy.jpg">
+                        <p>Aterrizador De Corriente</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
+                        <img src="images/producto-dumy.jpg">
+                        <p>Aterrizador De Corriente</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
+                        <img src="images/producto-dumy.jpg">
+                        <p>Aterrizador De Corriente</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
+                        <img src="images/producto-dumy.jpg">
+                        <p>Aterrizador De Corriente</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
+                        <img src="images/producto-dumy.jpg">
+                        <p>Aterrizador De Corriente</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
+                        <img src="images/producto-dumy.jpg">
+                        <p>Aterrizador De Corriente</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
+                        <img src="images/producto-dumy.jpg">
+                        <p>Aterrizador De Corriente</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
+                        <img src="images/producto-dumy.jpg">
+                        <p>Aterrizador De Corriente</p>
+                    </a>
+                </div>
 
         	</div>
 			<!-- Inicia Paginador -->

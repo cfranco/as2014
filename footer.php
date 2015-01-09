@@ -4,7 +4,7 @@
             <div class="row bg-atencion text-white">
                 <div class="container pv20">
                     <span class="col-lg-3 atencion">Atención a clientes:</span>
-                    <p class="col-lg-9 left">En México: 01 800 838 7990   ·   +52 (81) 1453 0241   ·   +52 (81) 1366 0620   ·   ventas@americanseal.com.mx</p>
+                    <p class="col-lg-9 left text-white">En México: 01 800 838 7990   ·   +52 (81) 1453 0241   ·   +52 (81) 1366 0620   ·   ventas@americanseal.com.mx</p>
                 </div>
             </div>
 

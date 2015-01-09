@@ -46,7 +46,9 @@
 
 
     <!-- Assets para lightbox -->
-    <script src="assets/bootstrap-lightbox/bootstrap-lightbox.js"></script>
-    <link href="assets/bootstrap-lightbox/bootstrap-lightbox.css" rel="stylesheet">
+    <link href="assets/lightbox/css/lightbox.css" rel="stylesheet" />
+    <script src="assets/lightbox/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/lightbox/js/lightbox.min.js"></script>
+
 </head>
 <body>
