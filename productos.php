@@ -1,3 +1,7 @@
+<?php 
+$marca = 'inpro';
+?>
+
 <?php include 'header.php';?>
 <?php include 'menu.php';?>
 
@@ -9,8 +13,8 @@
 
     <div class="container">
         <!-- Inicia Sidebar de Productos -->
-        <div class="col-md-3">
-        	<h4>Productos</h4>
+        <div id="side-products" class="col-md-3">
+        	<h1>Productos</h1>
         	<span>Por Categoría</span>
         	<ul>
 				<li><a href="">Anillo Aterrizador de Corriente</a></li>
@@ -34,9 +38,9 @@
         <!-- Termina Sidebar de Productos -->
 
         <!-- Inicia caja de marcas -->
-        <div class="col-md-9">
+        <div id="head-brand" class="col-md-9">
         	<div class="col-md-3">
-        		<img src="images/brand-inproseal.jpg">
+        		<img class="mt40" src="images/brand-inproseal.jpg">
         	</div>
         	<div class="col-md-9">
         		<h2>Inpro/Seal</h2>
