@@ -3,7 +3,7 @@
         <footer>
             <div class="row bg-atencion text-white">
                 <div class="container pv20">
-                    <span class="col-lg-3 atencion">Atención a clientes:</span>
+                    <span class="col-lg-3 atencion">Atención a Clientes:</span>
                     <p class="col-lg-9 left text-white">En México: 01 800 838 7990   ·   +52 (81) 1453 0241   ·   +52 (81) 1366 0620   ·   ventas@americanseal.com.mx</p>
                 </div>
             </div>
@@ -13,38 +13,34 @@
                     <div class="col-lg-7 no-gutters">
                         <ul class="col-lg-3 no-gutters">
                             <li class="title-foot">Productos</li>
-                            <li>Content</li>
-                            <li>Content</li>
-                            <li>Content</li>
-                            <li>Content</li>
-                            <li>Content</li>
+                            <li>SEPCO</li>
+                            <li>INPRO SEAL</li>
+                            <li>ORBINGENIERÍA</li>
+                            <li>AMPCO PUMPS</li>
                         </ul>
 
                         <ul class="col-lg-3 no-gutters">
                             <li class="title-foot">Servicios</li>
-                            <li>Content</li>
-                            <li>Content</li>
-                            <li>Content</li>
-                            <li>Content</li>
-                            <li>Content</li>
+                            <li>Instalación</li>
+                            <li>Mantenimiento</li>
+                            <li>Reparación</li>
+                            <li>Consultoría</li>
                         </ul>
                         
                         <ul class="col-lg-3 no-gutters">
                             <li class="title-foot">Recursos</li>
-                            <li>Content</li>
-                            <li>Content</li>
-                            <li>Content</li>
-                            <li>Content</li>
-                            <li>Content</li>
+                            <li>Videos</li>
+                            <li>Folletos</li>
+                            <li>Catálogos</li>
+                            <li>Hoja de Datos</li>
                         </ul>
 
                         <ul class="col-lg-3 no-gutters">
                             <li class="title-foot">Nuestra Empresa</li>
-                            <li>Content</li>
-                            <li>Content</li>
-                            <li>Content</li>
-                            <li>Content</li>
-                            <li>Content</li>
+                            <li>Acerca de American Seal</li>
+                            <li>Sucursales</li>
+                            <li>Distribuidores Autorizados</li>
+                            <li>Contacto</li>
                         </ul>
                     </div>
 

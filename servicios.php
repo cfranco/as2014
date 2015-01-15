@@ -11,7 +11,15 @@
 		<div class="container text-center">
 			<h1>Servicios</h1>
 			<p>Una empresa líder a nivel nacional e internacional en la manufactura </br>y comercialización de productos de sellado industrial.</p>
-		</div>
+	       
+            <ul>
+                <li><a href="#instalacion">Instalación</a></li>
+                <li><a href="#reparacion">Reparación</a></li>
+                <li><a href="#mantenimiento">Mantenimiento</a></li>
+                <li><a href="#consultoria">Consultoría</a></li>
+            </ul>  
+
+        </div>
 	</div>
     <div class="row">
         <div class="container mt50 ">
@@ -53,7 +61,7 @@
         <div class="container mt40 mb50">
             <img class="col-sm-5 right img-responsive" src="images/ejemplo.jpg">
             <div class="col-sm-6 left">
-                <a name="mantenimiento"></a>
+                <a name="consultoria"></a>
                 <h4 class="mt40">Consultoría</h4>
                 <p>Capacitamos y asesoramos a nuestros consumidores por medio de cursos de sellos mecánicos, y consultoría personalizada a cada empresa.</p>
                 <p><b>Estamos contigo.</b> Sabemos que el tiempo, es dinero y por lo tanto nuestro equipo está capacitado para ofrecer soporte técnico inmediato cuando tu empresa lo requiera.
