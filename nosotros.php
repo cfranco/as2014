@@ -14,11 +14,11 @@
 			<h1>Sómos American Seal</h1>
 			<p>Una empresa líder a nivel nacional e internacional en la manufactura </br>y comercialización de productos de sellado industrial.</p>
 	        <ul>
-                <li><a href="">¿Quiénes Somos?</a></li>
-                <li><a href="">¿Qué hacemos?</a></li>
-                <li><a href="">¿Cómo lo hacemos?</a></li>
-                <li><a href="">Objetivos</a></li>
-                <li><a href="">Ventajas</a></li>      
+                <li><a href="#quienes">¿Quiénes Somos?</a></li>
+                <li><a href="#quehacemos">¿Qué hacemos?</a></li>
+                <li><a href="#comosehace">¿Cómo lo hacemos?</a></li>
+                <li><a href="#objetivos">Objetivos</a></li>
+                <li><a href="#ventajas">Ventajas</a></li>      
             </ul>
         </div>
 	</div>
@@ -26,6 +26,7 @@
         <div class="col-sm-12 mt50">
             <img class="col-sm-6 left img-responsive" src="images/ejemplo.jpg">
             <div class="col-sm-6 right">
+                <a name="quienes"></a>
                 <h4 class="mt40">¿Quiénes Somos?</h4>
                 <p>American Seal es una empresa de trabajo dedicado a la manufactura y comercialización de sellos mecánicos y productos de sellado industrial, con 10 años de experiencia en el ramo nacional e internacional.</p>
                 <p>Además, contamos con el respaldo de SEPCO (Sealing Equipment Products CO; Inc), uno de los principales fabricantes del área de sellado a nivel mundial, con presencia en 30 paises con una antigudad de 63 años, lo cual nos permite ofrecer gran variedad de productos, con la mejor calidad, y precios competentes.</p>
@@ -35,13 +36,16 @@
          <div class="col-sm-12 mt50">
             <img class="col-sm-6 right img-responsive" src="images/ejemplo.jpg">
             <div class="col-sm-6 left">
+                <a name="quehacemos"></a>
                 <h4 class="mt40">¿Qué hacemos?</h4>
                 <p>Fabricamos, reparamos e instalamos productos de sellado industrial, ofrecemos cursos de sellos mecánicos, comercializamos empaquetadura, láminas, etc, en distintos materiales como el carburo de silicio, carburo de tungsteno, carbon y cerámica.</p>
+                <a name="comosehace"></a>
                 <h4 class="mt40">¿Cómo lo hacemos?</h4>
                 <p>Cuidamos cada uno de los procesos de manufactura de nuestros productos, y nos aseguramos de que cada uno sea correctamente ensamblado, y antes de embarcar, es inspeccionado y probado, para garantizar su calidad.</p>
             </div>
         </div>
         <div class="row">
+            <a name="objetivos"></a>
             <h2 class="mt40 text-center pv30">OBJETIVOS</h2>
             <div class="col-sm-3 text-center">
                 <img src="assets/img/palomita.png">
@@ -63,6 +67,7 @@
 
         </div>
         <div class="row text-center mb50">
+            <a name="ventajas"></a>
             <h2 class="mt40 text-center pv30">VENTAJAS</h2>
             <p class="intro">En American Seal estamos comprometidos con la calidad de cada uno de nuestros productos, así como con la satisfacción de los clientes, sobresaliendo del resto de la competencia.</p>
         
