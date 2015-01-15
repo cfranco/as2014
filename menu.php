@@ -29,11 +29,11 @@
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav right mt15">
-                            <li class="active"><a href="productos.php">Productos</a></li>
-                            <li><a href="#about">Servicios</a></li>
-                            <li><a href="#contact">Sucursales</a></li>
-                            <li><a href="#">Nosotros</a></li>
-                            <li><a href="#">Contacto</a></li>
+                            <li <?php if ($thisPage == 'productos') { echo 'class="active"';} ?>><a href="productos.php">Productos</a></li>
+                            <li <?php if ($thisPage == 'servicios') { echo 'class="active"';} ?>><a href="#about">Servicios</a></li>
+                            <li <?php if ($thisPage == 'sucursales') { echo 'class="active"';} ?>><a href="#contact">Sucursales</a></li>
+                            <li <?php if ($thisPage == 'nosotros') { echo 'class="active"';} ?>><a href="nosotros.php">Nosotros</a></li>
+                            <li <?php if ($thisPage == 'contacto') { echo 'class="active"';} ?>><a href="contacto.php">Contacto</a></li>
                         </ul>
                     </div>
                 </div>

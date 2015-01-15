@@ -1,5 +1,6 @@
 <?php 
 $marca = 'inpro';
+$thisPage = 'productos';
 ?>
 
 <?php include 'header.php';?>

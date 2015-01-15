@@ -32,9 +32,20 @@
 .mt25{margin-top: 25px;}
 .mt30{margin-top: 30px;}
 .mt35{margin-top: 35px;}
-.mt40{margin-top: 45px;}
+.mt40{margin-top: 40px;}
 .mt45{margin-top: 45px;}
 .mt50{margin-top: 50px;}
+
+.mb05{margin-bottom: 05px;}
+.mb10{margin-bottom: 10px;}
+.mb15{margin-bottom: 15px;}
+.mb20{margin-bottom: 20px;}
+.mb25{margin-bottom: 25px;}
+.mb30{margin-bottom: 30px;}
+.mb35{margin-bottom: 35px;}
+.mb40{margin-bottom: 40px;}
+.mb45{margin-bottom: 45px;}
+.mb50{margin-bottom: 50px;}
 
 /* no-gutters Class Rules */
 .row .no-gutters {
@@ -76,7 +87,7 @@ p{
 	color: #666;
 	font-family: roboto;
 	font-weight: 300;
-	font-size: 18px;
+	font-size: 14px;
 }
 
 .section{
@@ -90,6 +101,41 @@ p{
 	font-family: "roboto";
 	font-size: 21px;
 }
+
+.section ul{
+	list-style: square;
+	margin: 0px 20%;
+	padding:0px;
+	text-align: center;
+}
+.section ul li{
+	display: block;
+	float: left;
+	list-style: square;
+	margin: 0px;
+	padding: 10px;
+	text-align: center;
+}
+.section ul li a{
+	color: #043366;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	text-decoration: underline;
+}
+.section ul li a:hover {
+	color: #999;
+}
+
+.intro{
+	font-size: 18px;
+	text-align: center;
+	max-width: 60%;
+	margin: 0px 20% 30px 20%;
+}
+
 .bg-atencion{
 	background:#003367 url("../img/bg-atencion.png") center top no-repeat;
 	font-weight: bold;

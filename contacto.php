@@ -21,7 +21,7 @@
         	<!-- inicia Formulairo -->
 
 
-                <form id="defaultForm" method="post" class="form-horizontal" action="target.php">
+                <form id="defaultForm" method="post" class="form-horizontal mt30" action="target.php">
 
                     <div class="form-group col-sm-6">
                         <label class="col-sm-12 control-label">Nombre Completo:</label>
@@ -201,7 +201,7 @@ $(document).ready(function() {
         	<!-- Termina formulario -->
         </div>
         <div class="col-md-4">
-        	<h2>Datos de Contacto</h2>
+        	<h2 class="mt50">Datos de Contacto</h2>
         	<h4>Matriz </br>Monterrey, Nuevo León</h4>
         	<p>Calle Cedral #222, </br>Colonia Mitras Centro, </br>Monterrey, Nuevo León, México.</br>C.P. 64000</p>
         	<p><b>LADA sin costo:</b>	 01 800 838 7990</p> 
