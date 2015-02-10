@@ -48,7 +48,7 @@
         <div class="container">     
             <div id="top-productos" class="navbar-collapse collapse pad00">
                 <ul class="nav navbar-nav">
-                    <li class="first"><a href="">SEPCO</a></li>
+                    <li class="first <?php if ($marca=='sepco') { echo 'active';} ?>"><a href="">SEPCO</a></li>
                     <li <?php if ($marca=='inpro') { echo 'class="active"';} ?>><a href="">INPROSEAL</a></li>
                     <li <?php if ($marca=='orbi') { echo 'class="active"';} ?>><a href="">ORBI INEGNIERÍA</a></li>
                     <li <?php if ($marca=='ampco') { echo 'class="active"';} ?>><a href="">AMPCO PUMPS</a></li>

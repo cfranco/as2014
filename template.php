@@ -9,7 +9,7 @@
     <div class="section border-bottom">
 		<div class="container text-center">
 			<h1>Seccion</h1>
-			<p>copya de cada seccion</p>
+			<p>Copy de cada seccion</p>
 		</div>
 	</div>
     <div class="container">

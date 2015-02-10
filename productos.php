@@ -11,13 +11,17 @@ $thisPage = 'productos';
 <!-- Inicia contenido de la página
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-
+<div class="row">
     <div class="container">
         <!-- Inicia Sidebar de Productos -->
-        <div id="side-products" class="col-md-3">
+        <div id="side-products" class="col-md-3 contenedor group">
         	<h1>Productos</h1>
         	<span>Por Categoría</span>
         	<ul>
+                <li><a href="#cat1">Category 1</a></li>
+                <li><a href="#cat2">Category 2</a></li>
+                <li><a href="#cat3">Category 3</a></li>
+
 				<li><a href="">Anillo Aterrizador de Corriente</a></li>
 				<li><a href="">Anillos para Turbinas</a></li>
 				<li><a href="">Bombas de Diafragma</a></li>
@@ -37,6 +41,7 @@ $thisPage = 'productos';
         	</ul>
         </div>
         <!-- Termina Sidebar de Productos -->
+       
 
         <!-- Inicia caja de marcas -->
         <div id="head-brand" class="col-md-9">
@@ -66,103 +71,99 @@ $thisPage = 'productos';
 			<!-- Termina paginador -->
 
 
-			<div class="col-md-12 text-center products-image">
-        		<div class="col-md-3">
+			<div class="col-md-12 no-gutters text-center products-image contenedor">
+        		
+                <div class="col-md-3 box cat1">
                     <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
                         <img src="images/producto-dumy.jpg">
                         <p>Aterrizador De Corriente</p>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 box cat2">
                     <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
                         <img src="images/producto-dumy.jpg">
                         <p>Aterrizador De Corriente</p>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 box cat1">
                     <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
                         <img src="images/producto-dumy.jpg">
                         <p>Aterrizador De Corriente</p>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 box cat3">
                     <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
                         <img src="images/producto-dumy.jpg">
                         <p>Aterrizador De Corriente</p>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 box cat2">
                     <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
                         <img src="images/producto-dumy.jpg">
                         <p>Aterrizador De Corriente</p>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 box cat1">
                     <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
                         <img src="images/producto-dumy.jpg">
                         <p>Aterrizador De Corriente</p>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 box cat2">
                     <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
                         <img src="images/producto-dumy.jpg">
                         <p>Aterrizador De Corriente</p>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 box cat1">
                     <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
                         <img src="images/producto-dumy.jpg">
                         <p>Aterrizador De Corriente</p>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 box cat3">
                     <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
                         <img src="images/producto-dumy.jpg">
                         <p>Aterrizador De Corriente</p>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 box cat2">
                     <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
                         <img src="images/producto-dumy.jpg">
                         <p>Aterrizador De Corriente</p>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 box cat1">
                     <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
                         <img src="images/producto-dumy.jpg">
                         <p>Aterrizador De Corriente</p>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 box cat2">
                     <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
                         <img src="images/producto-dumy.jpg">
                         <p>Aterrizador De Corriente</p>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 box cat1">
                     <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
                         <img src="images/producto-dumy.jpg">
                         <p>Aterrizador De Corriente</p>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 box cat3">
                     <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
                         <img src="images/producto-dumy.jpg">
                         <p>Aterrizador De Corriente</p>
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 box cat2">
                     <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
                         <img src="images/producto-dumy.jpg">
                         <p>Aterrizador De Corriente</p>
                     </a>
                 </div>
-                <div class="col-md-3">
-                    <a href="images/CSO.jpg" data-lightbox="image-1" data-title="Nombre del  producto">
-                        <img src="images/producto-dumy.jpg">
-                        <p>Aterrizador De Corriente</p>
-                    </a>
-                </div>
+
 
         	</div>
 			<!-- Inicia Paginador -->
@@ -179,7 +180,6 @@ $thisPage = 'productos';
         	</div>
 			<!-- Termina paginador -->
         </div>
-
-
     </div>
+</div>
 <?php include 'footer.php' ?>

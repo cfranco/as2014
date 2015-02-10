@@ -24,7 +24,7 @@
 	</div>
     <div class="container">
         <div class="col-sm-12 mt50">
-            <img class="col-sm-6 left img-responsive" src="images/ejemplo.jpg">
+            <img class="col-sm-5 left img-responsive" src="images/ejemplo.jpg">
             <div class="col-sm-6 right">
                 <a name="quienes"></a>
                 <h4 class="mt40">¿Quiénes Somos?</h4>
@@ -34,7 +34,7 @@
         </div>
 
          <div class="col-sm-12 mt50">
-            <img class="col-sm-6 right img-responsive" src="images/ejemplo.jpg">
+            <img class="col-sm-5 right img-responsive" src="images/ejemplo.jpg">
             <div class="col-sm-6 left">
                 <a name="quehacemos"></a>
                 <h4 class="mt40">¿Qué hacemos?</h4>
@@ -72,19 +72,19 @@
             <p class="intro">En American Seal estamos comprometidos con la calidad de cada uno de nuestros productos, así como con la satisfacción de los clientes, sobresaliendo del resto de la competencia.</p>
         
             <div class="col-sm-3">
-                <h3>Calidad</h3>
+                <h4>Calidad</h4>
                 <p>Con el respaldo de SEPCO, podemos ofrecer productos de la más alta calidad, garantizando que nuestra línea cumpla con los estándares de los clientes. Además, la compañía fabricante nos apoya con respaldo técnico y tecnológico, asegurando que nuestro equipo de trabajo esté bien capacitado.</p>
             </div>
             <div class="col-sm-3">
-                <h3>Variedad de productos</h3>
+                <h4>Variedad de productos</h4>
                 <p>Para comodidad de nuestros clientes, contamos con una amplia gama de productos de sellado industrial. Entre nuestra línea ofrecemos sellos mecánicos, discos y bujes, entre otros.</p>
             </div>
             <div class="col-sm-3">
-                <h3>Compromiso</h3>
+                <h4>Compromiso</h4>
                 <p>Trabajamos de cerca con nuestros clientes, quienes son nuestra prioridad. Nos preocupamos siempre por ofrecerles los mejores precios y mantener en inventario los productos que necesitan. Nuestra entrega inmediata e inigualable calidad nos distinguen.</p>
             </div>
             <div class="col-sm-3">
-                <h3>Productos certificados</h3>
+                <h4>Productos certificados</h4>
                 <p>Cada uno de nuestros productos cuenta con la garantía de que cumple con los requerimientos de calidad, gracias a que contamos con el respaldo de SEPCO, una empresa certificada por ISO 9001-2000.</p>
             </div>
         </div>

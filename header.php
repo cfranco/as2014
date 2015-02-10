@@ -73,6 +73,18 @@
     <script type="text/javascript" src="assets/validator/dist/js/formValidation.js"></script>
     <script type="text/javascript" src="assets/validator/dist/js/framework/bootstrap.js"></script>
         
+<?php } elseif ($thisPage == 'productos') { ?>
+    <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+<script type="text/javascript">
+$( document ).ready(function() {
+    $(function(){
+       $('#contenedor').mixItUp();
+     });
+});
+
+
+</script>
+
 <?php } ?>
 
 </head>
