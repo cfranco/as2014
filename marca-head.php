@@ -2,7 +2,7 @@
 switch ($marca) {
 	case 'sepco': ?>
 
-        <div id="head-brand" class="col-md-9">
+        <div id="head-brand" class="col-md-9 border-bottom">
         	<div class="col-md-3">
         		<img class="mt40 img-responsive" src="images/brand-sepco.png">
         	</div>
@@ -15,7 +15,7 @@ switch ($marca) {
 	<?php break;
 	case 'inpro': ?>
 
-        <div id="head-brand" class="col-md-9">
+        <div id="head-brand" class="col-md-9 border-bottom">
         	<div class="col-md-3">
         		<img class="mt40 img-responsive" src="images/brand-inproseal.jpg">
         	</div>
@@ -28,7 +28,7 @@ switch ($marca) {
 	<?php break;
 	case 'orbi': ?>
 
-        <div id="head-brand" class="col-md-9">
+        <div id="head-brand" class="col-md-9 border-bottom">
         	<div class="col-md-3">
         		<img class="mt40 img-responsive" src="images/brand-inproseal.jpg">
         	</div>
@@ -41,7 +41,7 @@ switch ($marca) {
 	<?php break;
 	case 'ampco': ?>
 
-        <div id="head-brand" class="col-md-9">
+        <div id="head-brand" class="col-md-9 border-bottom">
         	<div class="col-md-3">
         		<img class="mt40 img-responsive" src="images/brand-ampco.jpg">
         	</div>

@@ -2,16 +2,17 @@
 $marca = 'sepco';
 $thisPage = 'productos';
 $thisCategory = 'empaques';
+$titlePage = "Empaques Industriales";
+$description ="Fabricamos Empaques Industriales de alto rendimiento.";
+$keywords ="empaques, empaquetadura, industrial, selllos, sellado,fabrica";
 ?>
 
 <?php include 'header.php';?>
 <?php include 'menu.php';?>
 
-
-
 <!-- Inicia contenido de la página
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
 <div class="row">
     <div class="container">
         <!-- Inicia Sidebar de Productos -->
@@ -24,22 +25,8 @@ $thisCategory = 'empaques';
         <!-- Termina caja de marcas -->
 
         <div class="col-md-9">
-        	<!-- Inicia Paginador -->
-        	<div class="col-md-12 border-bottom paginador">
-        		<div class="col-md-3">
-        			16 productos
-        		</div>
-        		<div class="col-md-6 text-center">
-        			aqui va el paginador
-        		</div>
-        		<div class="col-md-3">
-        			Mostrar xx productos
-        		</div>
-        	</div>
-			<!-- Termina paginador -->
 
-
-			<div class="col-md-12 no-gutters text-center products-image contenedor">
+			<div id="page-content" class="row border-bottom pb50 products-image" >
         		
                 <div class="col-md-3"><a href="productos/bigs/empaques/01.jpg" data-lightbox="image-1" data-title="Nombre del  producto"><img src="productos/200x200/empaques/01.jpg"><p>Empaques Industriales</p></a></div>
                 <div class="col-md-3"><a href="productos/bigs/empaques/02.jpg" data-lightbox="image-1" data-title="Nombre del  producto"><img src="productos/200x200/empaques/02.jpg"><p>Empaques Industriales</p></a></div>
@@ -96,24 +83,8 @@ $thisCategory = 'empaques';
                 <div class="col-md-3"><a href="productos/bigs/empaques/53.jpg" data-lightbox="image-1" data-title="Nombre del  producto"><img src="productos/200x200/empaques/53.jpg"><p>Empaques Industriales</p></a></div>
                 <div class="col-md-3"><a href="productos/bigs/empaques/54.jpg" data-lightbox="image-1" data-title="Nombre del  producto"><img src="productos/200x200/empaques/54.jpg"><p>Empaques Industriales</p></a></div>
                 <div class="col-md-3"><a href="productos/bigs/empaques/55.jpg" data-lightbox="image-1" data-title="Nombre del  producto"><img src="productos/200x200/empaques/55.jpg"><p>Empaques Industriales</p></a></div>
-            
-                
-
-
         	</div>
-			<!-- Inicia Paginador -->
-        	<div class="col-md-12 border-top paginador">
-        		<div class="col-md-3">
-        			16 productos
-        		</div>
-        		<div class="col-md-6 text-center">
-        			aqui va el paginador
-        		</div>
-        		<div class="col-md-3">
-        			Mostrar xx productos
-        		</div>
-        	</div>
-			<!-- Termina paginador -->
+			
         </div>
     </div>
 </div>

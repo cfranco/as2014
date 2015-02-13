@@ -4,18 +4,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <meta name="description" content="<?php if (empty($description)){ echo "Fabricación, instalación y reparación de Sellos Mecánicos, empaques y algo mas." ;} echo "$description"; ?>">
+    <meta name="keywords" content="<?php if (empty($keywords)){ echo "Sellos" ;} echo "$keywords"; ?>">
+    <meta name="author" content="www.centerweb.com.mx">
+    <link rel="icon" href="images/favicon.ico">
 
-    <title>Sellos Mecánicos Industriales</title>
+    <title><?php if (empty($titlePage)){ echo "Sellos y Empaques Industriales" ;} echo "$titlePage"; ?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/my-app.css" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Roboto:100italic,100,300italic,300,400italic,400,500italic,500,700italic,700,900italic,900" rel="stylesheet" type="text/css">
-
-
 
     <!-- Include FontAwesome CSS if you want to use feedback icons provided by FontAwesome -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/fontawesome/4.1.0/css/font-awesome.min.css" />
@@ -44,12 +43,6 @@
     <!-- Custom styles for this template -->
     <link href="assets/carousel.css" rel="stylesheet">
 
-
-    <!-- Assets para lightbox -->
-    <link href="assets/lightbox/css/lightbox.css" rel="stylesheet" />
-    <script src="assets/lightbox/js/jquery-1.11.0.min.js"></script>
-    <script src="assets/lightbox/js/lightbox.min.js"></script>
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -62,11 +55,9 @@
 
 <?php if ($thisPage == 'contacto') { ?>
 
-
+    <!-- Assets para formulario de contacto
+    ================================== -->
     <link rel="stylesheet" href="assets/validator/dist/css/formValidation.css"/>
-
-    <!-- Include the FontAwesome CSS if you want to use feedback icons provided by FontAwesome -->
-    <!--<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />-->
 
     <script type="text/javascript" src="assets/validator/vendor/jquery/jquery.min.js"></script>
     <script type="text/javascript" src="assets/validator/vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -74,16 +65,21 @@
     <script type="text/javascript" src="assets/validator/dist/js/framework/bootstrap.js"></script>
         
 <?php } elseif ($thisPage == 'productos') { ?>
-    <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
-<script type="text/javascript">
-$( document ).ready(function() {
-    $(function(){
-       $('#contenedor').mixItUp();
-     });
-});
 
-
-</script>
+    <!-- Assets para lightbox
+    ================================== -->
+    <link href="assets/lightbox/css/lightbox.css" rel="stylesheet" />
+    <script src="assets/lightbox/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/lightbox/js/lightbox.min.js"></script>
+    
+    <!-- Assets para paginador de items
+    ================================== -->
+    <script type="text/javascript" src="assets/js/jquery.quick.pagination.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#page-content").quickPagination({pagerLocation:"both",pageSize:"12"});
+        });
+    </script>
 
 <?php } ?>
 
