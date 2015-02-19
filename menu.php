@@ -43,10 +43,10 @@
         <div class="container">     
             <div id="top-productos" class="navbar-collapse collapse pad00">
                 <ul class="nav navbar-nav">
-                    <li class="first <?php if ($marca=='sepco') { echo 'active';} ?>"><a href="">SEPCO</a></li>
-                    <li <?php if ($marca=='inpro') { echo 'class="active"';} ?>><a href="">INPROSEAL</a></li>
-                    <li <?php if ($marca=='orbi') { echo 'class="active"';} ?>><a href="">ORBI INEGNIERÍA</a></li>
-                    <li <?php if ($marca=='ampco') { echo 'class="active"';} ?>><a href="">AMPCO PUMPS</a></li>
+                    <li class="first <?php if ($marca=='sepco') { echo 'active';} ?>"><a href="sellos-mecanicos.php">SEPCO</a></li>
+                    <li <?php if ($marca=='inpro') { echo 'class="active"';} ?>><a href="anillo-aterrizador-de-corriente.php">INPROSEAL</a></li>
+                    <li <?php if ($marca=='ampco') { echo 'class="active"';} ?>><a href="accesorios.php">AMPCO PUMPS</a></li>
+                    <li <?php if ($marca=='orbi') { echo 'class="active"';} ?>><a href="empaques-para-intercambiadores.php">ORBI INEGNIERÍA</a></li>
                     <li <?php if ($marca=='promos') { echo 'class="active"';} ?>><a href="">PROMOCIONES</a></li>
                 </ul>
             </div>
