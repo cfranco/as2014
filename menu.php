@@ -25,7 +25,7 @@
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav navbar-nav right mt15">
-                            <li <?php if ($thisPage == 'productos') { echo 'class="active"';} ?>><a href="productos.php">Productos</a></li>
+                            <li <?php if ($thisPage == 'productos') { echo 'class="active"';} ?>><a href="sellos-mecanicos.php">Productos</a></li>
                             <li <?php if ($thisPage == 'servicios') { echo 'class="active"';} ?>><a href="servicios.php">Servicios</a></li>
                             <li <?php if ($thisPage == 'sucursales') { echo 'class="active"';} ?>><a href="sucursales.php">Sucursales</a></li>
                             <li <?php if ($thisPage == 'nosotros') { echo 'class="active"';} ?>><a href="nosotros.php">Nosotros</a></li>
