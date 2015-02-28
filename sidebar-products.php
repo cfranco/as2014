@@ -1,4 +1,4 @@
-		<div id="side-products" class="col-sm-3">
+		<div id="side-products" class="col-sm-4">
         	<h1>Productos</h1>
         	<span>SEPCO</span>
 
@@ -21,21 +21,20 @@
 
 			</ul>
 
-        	
-        	<span>AMPCO</span>
-        	<ul>
-				<li <?php if ($thisCategory == 'accesorios') { echo 'class="active"'; } ?>>				<a href="accesorios.php">Accesorios</a></li>
-				<li <?php if ($thisCategory == 'bombas-diafragma') { echo 'class="active"'; } ?>>		<a href="bombas-de-diafragma.php">Bombas de Diafragma</a></li>
-				<li <?php if ($thisCategory == 'bombas-sanitarias') { echo 'class="active"'; } ?>>		<a href="bombas-sanitarias.php">Bombas Sanitarias</a></li>
-				<li <?php if ($thisCategory == 'sistema-limpieza') { echo 'class="active"'; } ?>>		<a href="sistema-limpieza-de-tanques.php">Sistema de Limpieza de Tanque</a></li>
-        		
-        	</ul>
-<span>ORBI INGENIERÍA</span>
+			<span>ORBINGENIERIA</span>
         	<ul>
 				<li <?php if ($thisCategory == 'empaques') { echo 'class="active"'; } ?>>				<a href="empaques-para-intercambiadores.php">Empaques para Intercambiadores</a></li>
 				<li <?php if ($thisCategory == 'intercambiadores') { echo 'class="active"'; } ?>>		<a href="intercambiadores-de-calor.php">Intercambiadores de Calor</a></li>
 				<li <?php if ($thisCategory == 'mantenimiento-centro') { echo 'class="active"'; } ?>>	<a href="mantenimiento-en-centro-de-servicio.php">Mantenimiento en Centro de Servicio</a></li>
 				<li <?php if ($thisCategory == 'mantenimiento-sitio') { echo 'class="active"'; } ?>>	<a href="servicio-de-mantenimiento-en-sitio.php">Mantenimiento en Sitio</a></li>
 				<li <?php if ($thisCategory == 'placas') { echo 'class="active"'; } ?>>					<a href="placas.php">Placas </a></li>
+        	</ul>
+
+        	<span>AMPCO</span>
+        	<ul>
+        		<li <?php if ($thisCategory == 'bombas-sanitarias') { echo 'class="active"'; } ?>>		<a href="bombas-sanitarias.php">Bombas Sanitarias</a></li>
+				<li <?php if ($thisCategory == 'bombas-diafragma') { echo 'class="active"'; } ?>>		<a href="bombas-de-diafragma.php">Bombas de Diafragma</a></li>
+				<li <?php if ($thisCategory == 'sistema-limpieza') { echo 'class="active"'; } ?>>		<a href="sistema-limpieza-de-tanques.php">Sistema de Limpieza de Tanque</a></li>
+        		<li <?php if ($thisCategory == 'accesorios') { echo 'class="active"'; } ?>>				<a href="accesorios.php">Accesorios</a></li>
         	</ul>
         </div>

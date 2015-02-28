@@ -69,6 +69,9 @@
    padding-left: 0;
 }
 
+.nopadding{padding: 0px;}
+.nomargin{margin: 0px;}
+.nopama{margin: 0px; padding: 0px;}
 .border-gris{border: 1px solid #eee;}
 .border-bottom{border-bottom: 1px solid #eee;}
 .border-top{border-top: 1px solid #eee;}
@@ -82,6 +85,15 @@
 	padding: 5px 0px;
 	text-align: right;
 }
+
+@media (max-width: 768px) {
+
+	.head-top{
+		font-size: 13px;
+		text-align: center;
+	}
+}
+
 
 
 h1, h2, h3, h4, h5, h6{
@@ -199,12 +211,22 @@ img.shadow{
 	box-shadow: 0px 4px 15px #ddd;
 }
 #brand-product{text-align: center;}
+#brand-product img{margin: 0 auto;}
+#serv-home img{margin: 0 auto;}
 #brand-product ul{
 	color: #666;
 	font-size: 14px;
 	list-style: none;
 	margin: 0px;
+	min-height: 200px;
 	padding: 0px;
+}
+
+#brand-product ul li a{
+	color: #222;
+	display: block;
+	padding:4px; 
+	text-transform: uppercase;
 }
 
 #form-llama{}
@@ -220,30 +242,15 @@ img.shadow{
 #form-llama span.contact-phone{
 	color:#5cb85c;
 	display: block;
-	font-size: 24px;
+	font-size: 20px;
 	letter-spacing: 1px;
 	margin-bottom: 8px;
+	text-align: right;
 }
 #formContrata label{padding: 10px 0px;}
 
 
 
-footer ul{
-	margin: 0px;
-	padding: 0px;
-}
-footer ul li{
-	list-style: none;
-	margin: 0px;
-	padding: 0px;
-
-}
-footer ul li.title-foot{
-	color:#003367;
-	font-family: "roboto";
-	font-weight: bold;
-	font-size: 19px;
-}
 
 
 .paginador{margin: 20px 0px; padding: 20px 0px;}
@@ -320,6 +327,7 @@ Sidebar - titulos
 	#navbar ul.right{
 		float: left;
 	}
+	
 	button.navbar-toggle{
 		display: block;
 		margin-top: 20px;
@@ -327,106 +335,86 @@ Sidebar - titulos
 }
 
 
-/****======= 
-Estilos para el isotopo
-=======****/
 
-*{
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+/**** ====== 
+Estilos para la sección de sucursales
+====== ****/
+
+.sucs{
+	margin: 0px;
+	padding: 0px;
+	min-height: 240px;
+}
+
+.sucs img{
+	margin: 20px 0px;
+	padding: 0px 15px 0px 0px;
+
 }
 
 
+/******* ========== 
+Estilos para el Footer
+========== *******/
 
-.controls{}
 
-label{}
 
-button{
-  display: block;
-  padding: .4em .8em;
-  background: #666;
-  border: 0;
-  color: #ddd;
-  font-size: 16px;
-  font-weight: 300;
-  border-radius: 4px;
-  cursor: pointer;
+footer ul{
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
 }
-
-button.active{
-  background: #68b8c4;
-}
-
-button:focus{
-  outline: 0 none;
-}
-
-button + label{
-  margin-left: 1em;
-}
-
-.contenedor{}
-
-.contenedor:after{
-  content: '';
-  display: inline-block;
-  width: 100%;
-}
-
-.contenedor .mix,
-.contenedor .gap{
+footer ul li{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
 
 }
-
-.contenedor .mix{
-	margin: 0px 0px 0px 10px;
-  	display: none;
+footer ul li.title-foot{
+	color:#003367;
+	font-family: "roboto";
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0px 0px 10px 0px;
 }
 
-.contenedor .mix.category-1{}
-
-.contenedor .mix.category-2{}
-
-.contenedor .mix:after{
-  content: attr(data-myorder);
-  display: inline-block;
-  vertical-align: top;
-  padding: 4% 6%;
-  font-weight: 700;
+footer ul li a{
+	color: #222;
+	margin: 5px 0px 5px 15px;
 }
 
-.contenedor .mix:before{
-  content: '';
-  display: inline-block;
-
-}
-
-@media all and (min-width: 420px){
-  .contenedor .mix,
-  .contenedor .gap{
-    width: 32%;
-  }
-}
-
-@media all and (min-width: 640px){
-  .contenedor .mix,
-  .contenedor .gap{
-    width: 23.5%;
-  }
+footer ul li a:hover{
+	color: #000;
+	text-decoration: underline;
 }
 
 
+@media (max-width: 680px) and (orientation: portrait) {
 
+	h1{font-size: 28px;}
 
+	#brand-product h2{
+		font-size: 16px;
+	}
+	#serv-home h3{
+		font-size: 16px;
+	}
 
+	footer ul li.title-foot{
+		font-size: 18px;
+	}
+	footer ul li a{
+		font-size: 12px;
+	}
+	footer #testimonio{
+		background: #d1d1d1;
+		display: block;
+		margin: 20px 0px 0px 0px;
+		padding: 20px 0px;
+	}
+	footer.pv35{
+		padding-bottom: 0px;
+	}
 
-
-
-
-
-
-
+}
 
 

@@ -12,7 +12,7 @@
 	<div class="section border-bottom">
 		<div class="container text-center">
 			<h1>Contacto</h1>
-			<p>Contacta a American Seal, los especialistas en sellos mecánicos.</br>Llena y envía los datos del siguiente formulario de contacto. </p>
+			<p>Contacta a American Seal, los especialistas en ingeniería de sellado industrial.</br>Llena y envía los datos del siguiente formulario de contacto. </p>
 		</div>
 	</div>
     <div class="container">
@@ -106,7 +106,7 @@
         	<p>Calle Cedral #222, </br>Colonia Mitras Centro, </br>Monterrey, Nuevo León, México.</br>C.P. 64000</p>
         	<p><b>LADA sin costo:</b>	 01 800 838 7990</p> 
         	<p><b>Teléfonos:</b></br>+52 (81) 1453 0241</br>+52 (81) 1366 0620</p>
-        	<p><b>Correo electrónico:</b></br>atc@americanseal.com.mx</br>ventas@americanseal.com.mx</p>
+        	<p><b>Correo electrónico:</b></br>atc@americanseal.com.mx</br>ventas@americanseal.com.mx</br>info@americanseal.com.mx</p>
         </div>
     </div>
 

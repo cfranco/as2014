@@ -3867,7 +3867,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-collapse {
-    width: auto;
+    /*width: auto;*/
     border-top: 0;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -5590,6 +5590,7 @@ button.close {
   }
 }
 @media (min-width: 992px) {
+
   .modal-lg {
     width: 900px;
   }
@@ -6208,8 +6209,20 @@ button.close {
   .visible-sm-inline-block {
     display: inline-block !important;
   }
+   .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 5px;
+  }
+
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+  .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px;
+  }
+
   .visible-md {
     display: block !important;
   }

@@ -12,23 +12,24 @@
         <div class="container">
             <nav class="navbar  navbar-static-top" role="navigation">
                 <div class="container pad00">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <div class="navbar-header col-sm-4 ">
+                        <a class="navbar-brand col-xs-7 col-sm-12 col-md-9" href="index.php">
+                            <img class="img-responsive" src="assets/img/logo.jpg">
+                        </a>
+                        <button type="button" class="navbar-toggle collapsed hidden-sm" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.php">
-                            <img class="img-responsive col-md-8 pad00" src="assets/img/logo.jpg">
-                        </a>
+                        
                     </div>
-                    <div id="navbar" class="navbar-collapse collapse">
+                    <div id="navbar" class="navbar-collapse collapse col-sm-8">
                         <ul class="nav navbar-nav right mt15">
                             <li <?php if ($thisPage == 'productos') { echo 'class="active"';} ?>><a href="sellos-mecanicos.php">Productos</a></li>
                             <li <?php if ($thisPage == 'servicios') { echo 'class="active"';} ?>><a href="servicios.php">Servicios</a></li>
                             <li <?php if ($thisPage == 'sucursales') { echo 'class="active"';} ?>><a href="sucursales.php">Sucursales</a></li>
-                            <li <?php if ($thisPage == 'nosotros') { echo 'class="active"';} ?>><a href="nosotros.php">Nosotros</a></li>
+                            <li <?php if ($thisPage == 'recursos') { echo 'class="active"';} ?>><a href="recursos.php">Recursos</a></li>
                             <li <?php if ($thisPage == 'contacto') { echo 'class="active"';} ?>><a href="contacto.php">Contacto</a></li>
                         </ul>
                     </div>
@@ -45,8 +46,8 @@
                 <ul class="nav navbar-nav">
                     <li class="first <?php if ($marca=='sepco') { echo 'active';} ?>"><a href="sellos-mecanicos.php">SEPCO</a></li>
                     <li <?php if ($marca=='inpro') { echo 'class="active"';} ?>><a href="anillo-aterrizador-de-corriente.php">INPROSEAL</a></li>
+                    <li <?php if ($marca=='orbi') { echo 'class="active"';} ?>><a href="empaques-para-intercambiadores.php">ORBINGENIERIA</a></li>                    
                     <li <?php if ($marca=='ampco') { echo 'class="active"';} ?>><a href="accesorios.php">AMPCO PUMPS</a></li>
-                    <li <?php if ($marca=='orbi') { echo 'class="active"';} ?>><a href="empaques-para-intercambiadores.php">ORBI INEGNIERÍA</a></li>
                     <li <?php if ($marca=='promos') { echo 'class="active"';} ?>><a href="">PROMOCIONES</a></li>
                 </ul>
             </div>
